@@ -4,8 +4,8 @@
 //Year: 2016
 //For: Krl
 ////////////////////
-require 'flight/Flight.php';
-require 'core/routes.php';
-require 'core/dbCore.php';
+require '/var/www/api/flight-master/flight/Flight.php';
+require '/var/www/api/core/routes.php';
+
 Flight::start();
 ?>
